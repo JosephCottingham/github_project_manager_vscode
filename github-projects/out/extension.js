@@ -156,7 +156,7 @@ class Panel {
             // const stylesMainUri = webview.asWebviewUri(stylesPathMainPath);
             // // Use a nonce to only allow specific scripts to be run
             // const nonce = getNonce();
-            const filePath = vscode.Uri.file(path.join(this._extensionUri.fsPath, 'src', 'html', 'index.html'));
+            const filePath = vscode.Uri.file(path.join(this._extensionUri.fsPath, 'media', 'html', 'index.html'));
             // console.log(this._url);
             // const x = await this._octokit.request(`GET ${this._url}`).then(res => {
             // 	console.log('this._url');
